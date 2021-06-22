@@ -279,8 +279,8 @@ NotesGroup.add(Notes)
 }
 
 function reset(){
-BackgroundSound.play()
-DieSound.play()
+BackgroundSound.stop()
+DieSound.stop()
 score = 0;
 TotalCoins = 0;
 TotalDiamonds = 0;
